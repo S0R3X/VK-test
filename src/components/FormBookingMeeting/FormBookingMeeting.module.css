@@ -1,0 +1,14 @@
+.container {
+  max-width: 90vw;
+  max-height: 80vh;
+  overflow: auto;
+  box-shadow: 0px 5px 10px 0px rgba(141, 139, 139, 0.5);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 570px) {
+  .container {
+    max-width: 25.25rem;
+  }
+}
